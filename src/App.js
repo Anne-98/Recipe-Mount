@@ -20,6 +20,7 @@ export default function App() {
       <NavbarFixed/>
       <Switch>
         <Route path="/search/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
+        <Route path="/Recipe-Mount" exact={true} component={HomePage}/>
         <Route path="/" exact={true} component={HomePage}/>
         <Route path="/search" component={SearchPage} />
         <Route path="/random" component={RandomPage}/>

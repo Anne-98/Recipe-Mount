@@ -1,0 +1,53 @@
+.Banner-container{
+    background-color: #f09680;
+
+}
+.banner-text-div{
+    text-align: center;
+    color:#80504a;
+    font-family: 'IM Fell English SC', serif;
+    
+    font-weight: bold;
+    margin: 2vh;
+    padding: 0;
+    
+}
+.banner-text-div>*{
+    padding: 7vh;
+}
+.banner-text-inner{
+    margin: 5vh;
+    box-shadow: 0 -1px 1px 0 rgba(245, 244, 244, 0.801), 0 1px 2px 0 rgba(240, 238, 238, 0.856);
+}
+.banner-heading{
+    font-family: 'Lobster', cursive;
+    color: #c75e57;
+    transition: background 1s, transform 1s ease-out;
+}
+.banner-button{
+    background:#ffcdb2c9;
+    font-family: 'Secular One', sans-serif;
+    border:none;
+    color:#bb5a53;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+}
+.banner-button:hover{
+    background:#ffcdb2;
+    color:#c75e57;
+}
+
+.banner-image{
+    width: 100%;
+    height: 100%;
+}
+.mb-3{
+    border: none;
+    margin-bottom:  0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');

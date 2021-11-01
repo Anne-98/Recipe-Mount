@@ -1,0 +1,176 @@
+
+.navbar{background-color: #f5f3f4; z-index: 3;font-family: 'Bree Serif', serif;}
+
+#navbarContainer{ box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.404); z-index: 2;}
+.siteName{font-family: 'Merienda', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Playball', cursive; }
+.siteName h3{color: #f08080; font-weight: bold; }
+
+
+#search-btn{
+  background-color: #f08080; 
+  color:white;
+  border-radius: 0px 20px 40px 0px;
+  border: #f08080 solid 2px;
+}
+#search-btn i{
+  color: white;
+}
+#search-btn:focus {
+  box-shadow: none;
+}
+#search-input:focus {
+  box-shadow: none;
+}
+#search-input{
+  border-radius: 40px 0px 0px 20px;
+  border: #492121 solid 2px;
+  text-align: center;
+}
+
+
+#navItem{color:#f08080;margin-right: 20px; text-decoration: none;}
+#navItem:hover{color:#a44a3f}
+
+.category-component{
+  margin: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),
+    0 0 1rem rgba(0,0,0,0.2);
+  transition: all .2s ease;
+  
+}
+.category-component:hover{
+  transform: translateY(-4px);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.categories-wrapper{
+  background: url("../images/carousel/18.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+.categories-container{
+  background-color: rgba(238, 238, 238, 0.815);
+  border-radius: 5px;
+  position: relative;
+    padding-bottom: 20%;
+  
+}
+.category-heading{
+  padding: 120px 0px 30px 0px;
+  font-family: 'Lobster', cursive;
+  color: #b96d63;
+  transition: background 1s, transform 1s ease-out;
+  
+}
+.category-image-container{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.category-component-body:hover{
+  box-shadow: inset 0 3px 0 0 #8f8c82;
+  border-color: #ccb65e;
+}
+.categories-image,.dynamic-categories-image{
+  transition: background 1s, transform 1s ease-out;
+  overflow: hidden;
+}
+.categories-image:hover{
+  transform: rotate(10deg) scale(1.3);
+}
+.category-component-body{
+  background:linear-gradient(to top,#f08080,#f4978e,  #f8ad9d,#fbc4ab,#fbc4ab69);
+  color:rgb(90, 90, 90);
+  height: 200px;
+  
+}
+.category-link{
+  text-decoration: none;
+  text-shadow: rgba(black, 0.5) 0 10px 10px;
+  
+}
+.category-name,.dynamic-category-name{
+  font-family: 'Carter One', cursive;
+}
+.category-description{
+  font-family: 'Arima Madurai', cursive;
+  font-family: 'Carter One', cursive;
+}
+
+.dynamic-categories-wrapper{
+  background-image: url("../images/carousel/tobias-marks-1g7iJxTQtA4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.searched-items-wrapper{
+  background-image: url("../images/carousel/joanna-kosinska-QeKCqh6TOQI-unsplash (1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.dynamic-categories-component{
+  margin: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all .2s ease;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2),0 0 1rem rgba(0,0,0,0.2);
+  border-radius: 10px;
+  font-family: 'Bree Serif', serif;
+  color: #a44a3f;
+
+}
+
+.dynamic-categories-component:hover{
+  filter: brightness(70%);
+}
+.dynamic-categories{
+  margin: 20px;
+  /* text-decoration: none; */
+  /* overflow: hidden; */
+  box-shadow: 0 -1px 1px 0 rgba(245, 244, 244, 0.801), 0 1px 2px 0 rgba(240, 238, 238, 0.856);
+  transition: all .2s ease;
+  color: white;
+}
+
+.dynamic-categories-component:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 4px 25px 0 rgba(0,0,0,.3), 0 0 1px 0 rgba(0,0,0,.25);
+}
+/* @media screen and (max-width: 1213px) {
+  
+@keyframes pop-up{
+  0%{ width: 10%;}
+  100%{ width: 35%;}
+}
+}
+@media screen and (max-width: 1025px) {
+
+@keyframes pop-up{
+  0%{ width: 10%;}
+  100%{ width: 45%;}
+}
+
+}
+@media screen and (max-width: 600px) {
+
+@keyframes pop-up{
+  0%{ width: 10%;}
+  100%{ width: 50%;}
+}
+
+} */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat+Alternates:wght@500&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;400&family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');

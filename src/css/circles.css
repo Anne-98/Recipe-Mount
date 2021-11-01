@@ -1,0 +1,44 @@
+.circles-bar{
+    background-color: #49505715;
+    font-family: 'Arima Madurai', cursive;
+  font-family: 'Carter One', cursive;
+  box-shadow: inset 0px 3px 10px 1px;
+    border-bottom: #b96d63 solid 10px;
+}
+
+
+.circles-image-div{
+    padding: 10px 10px 0px 10px;
+    /* margin: 15px; */
+    /* -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg); */
+  /* background-color: #49505780; */
+
+
+    
+}
+.circles-image-div img{
+    transition: all 0.5s ease ;
+    border-radius: 50%;
+}
+.circles-image-div img:hover{
+    transform: scale(1.3)  translateY(-10px);
+
+}
+.circles-link{
+    text-decoration: none;
+    color: #b96d63;
+}
+.circles-link:hover{
+    color: #f08080;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;400&family=Carter+One&display=swap');

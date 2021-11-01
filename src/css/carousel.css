@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.carousel-caption-1 h2, .carousel-caption-1 p{color: #8f6f5e}
+.carousel-caption-2 h2, .carousel-caption-2 p{color: #596436}
+.carousel-caption-3 h2, .carousel-caption-3 p{color: #545455}
+
+.carousel-fade .carousel-item {
+    /* opacity: 0; */
+    /* transition-property: opacity; */
+    transform: none;}
+
+.carousel-caption-1 p, .carousel-caption-2 p,.carousel-caption-3 p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-caption-1 h2, .carousel-caption-2 h2,.carousel-caption-3 h2{
+    font-family: 'Secular One', sans-serif;
+}
+.carousel-container{
+    width: 100vw;
+    height: 100vh;
+}
+@keyframes pop-up{
+  0%{ transform: translateX(-80px); width: 300px;}
+  100%{ transform: translateX(80px);width: 400px;}
+}
+
+#popUp{
+  background-color: rgba(247, 229, 229, 0.966);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.404); 
+  border-radius: 5px;
+  animation-name: pop-up;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  margin-top: 25%;
+  z-index: 2;
+  transition: all 0.2s ease;
+  width: 500px;
+  padding: 5px;
+}
+
+.carouselIcon{
+  color:white;
+  padding: 40px;
+  background:#f08080;
+  border-radius:10px;
+  float:left;
+  font-size: 30px;
+}
+#carouselFollow{
+  color: #a44a3f;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Bree Serif', serif;
+}
+#carousel-img-1, #carousel-img-2, #carousel-img-3{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel-img-1{
+    background-image: url('../images/carousel/carousel4.jpg');
+}
+#carousel-img-2{
+    background-image: url('../images/carousel/carousel2.jpg');
+}
+#carousel-img-3{
+    background-image: url('../images/carousel/joanna-kosinska-QeKCqh6TOQI-unsplash (1).jpg');
+}
+
+@media screen and (max-width:600px){
+    #carousel-img-1{
+        background-image: url('../images/carousel/carousel3.jpg');
+    }
+    #carousel-img-2{
+        background-image: url('../images/carousel/brooke-lark-nBtmglfY0HU-unsplash.jpg');
+    }
+    #carousel-img-3{
+        background-image: url('../images/carousel/carousel5.jpg');
+    }
+
+    @keyframes pop-up{
+        0%{width: 300px;}
+        100%{width: 350px;}
+    }
+
+    #popUp{
+    background-color: rgba(247, 229, 229, 0.596);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.404); 
+    border-radius: 5px;
+    animation-name: pop-up;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    margin-top: 250px;
+    z-index: 2;
+    transition: all 0.2s ease;
+    width: 300px;
+    padding: 5px;
+    }
+}

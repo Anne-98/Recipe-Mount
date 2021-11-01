@@ -1,0 +1,13 @@
+.trending-items-wrapper{
+  background-image: url("../images/carousel/16.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.trending-container{
+    background-color: rgba(238, 238, 238, 0.815);
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Recipe-Mount/static/css/main.60cc04fb.chunk.css",
+    "main.js": "/Recipe-Mount/static/js/main.75efcb78.chunk.js",
+    "main.js.map": "/Recipe-Mount/static/js/main.75efcb78.chunk.js.map",
+    "runtime-main.js": "/Recipe-Mount/static/js/runtime-main.88bc5d44.js",
+    "runtime-main.js.map": "/Recipe-Mount/static/js/runtime-main.88bc5d44.js.map",
+    "static/css/2.f2512455.chunk.css": "/Recipe-Mount/static/css/2.f2512455.chunk.css",
+    "static/js/2.64ae4ec4.chunk.js": "/Recipe-Mount/static/js/2.64ae4ec4.chunk.js",
+    "static/js/2.64ae4ec4.chunk.js.map": "/Recipe-Mount/static/js/2.64ae4ec4.chunk.js.map",
+    "index.html": "/Recipe-Mount/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/Recipe-Mount/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.60cc04fb.chunk.css.map": "/Recipe-Mount/static/css/main.60cc04fb.chunk.css.map",
+    "static/js/2.64ae4ec4.chunk.js.LICENSE.txt": "/Recipe-Mount/static/js/2.64ae4ec4.chunk.js.LICENSE.txt",
+    "static/media/trending.css": "/Recipe-Mount/static/media/16.37cf763d.jpg",
+    "static/media/home.css": "/Recipe-Mount/static/media/tobias-marks-1g7iJxTQtA4-unsplash.721c20d4.jpg",
+    "static/media/20.1b1838f2.jpg": "/Recipe-Mount/static/media/20.1b1838f2.jpg",
+    "static/media/alexander-mils-6HPLJLe2mX8-unsplash.97752d6b.jpg": "/Recipe-Mount/static/media/alexander-mils-6HPLJLe2mX8-unsplash.97752d6b.jpg",
+    "static/media/bakd-raw-by-karolin-baitinger-qzFtCfxV_sg-unsplash.d60c3c30.jpg": "/Recipe-Mount/static/media/bakd-raw-by-karolin-baitinger-qzFtCfxV_sg-unsplash.d60c3c30.jpg",
+    "static/media/carousel.css": "/Recipe-Mount/static/media/joanna-kosinska-QeKCqh6TOQI-unsplash (1).9d962729.jpg",
+    "static/media/carousel1.b956c037.jpg": "/Recipe-Mount/static/media/carousel1.b956c037.jpg",
+    "static/media/recipeDetails.css": "/Recipe-Mount/static/media/diana-polekhina-GokMXT9Dx1U-unsplash.a571462c.jpg",
+    "static/media/font-awesome.min.css": "/Recipe-Mount/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo1.971fba3b.png": "/Recipe-Mount/static/media/logo1.971fba3b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88bc5d44.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.64ae4ec4.chunk.js",
+    "static/css/main.60cc04fb.chunk.css",
+    "static/js/main.75efcb78.chunk.js"
+  ]
+}

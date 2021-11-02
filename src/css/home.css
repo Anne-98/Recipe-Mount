@@ -141,6 +141,11 @@ font-family: 'Playball', cursive; }
   transform: translateY(-4px);
   box-shadow: 0 4px 25px 0 rgba(0,0,0,.3), 0 0 1px 0 rgba(0,0,0,.25);
 }
+.dynamic-categories-image{
+  object-fit: cover;
+  width: 200px;
+  
+}
 /* @media screen and (max-width: 1213px) {
   
 @keyframes pop-up{

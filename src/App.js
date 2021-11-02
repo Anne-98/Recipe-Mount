@@ -12,15 +12,17 @@ import DetailsPage from './pages/DetailsPage';
 import './css/font-awesome-4.7.0/css/font-awesome.min.css';
 import NavbarFixed from './components/Home/NavbarFixed';
 import SearchItemList from './pages/SearchItemList';
-import Footer from './components/Home/Footer'
+import Footer from './components/Home/Footer';
+import { HashRouter } from 'react-router-dom';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavbarFixed/>
       <Switch>
         <Route path="/search/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
-        <Route path="/" exact={true} component={HomePage}/>
+        <Route path="/Recipe-Mount" exact={true} component={HomePage}/>
+        <Route path="/" component={HomePage}/>
         <Route path="/search" component={SearchPage} />
         <Route path="/random" component={RandomPage}/>
         <Route path="/categories" component={CategoriesPage}/>
@@ -28,7 +30,7 @@ export default function App() {
         <Route path="/:dynamic" render={(props) => { return ( <DynamicCategoriesPage {...props } /> )}}/>
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

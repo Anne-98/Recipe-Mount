@@ -47,13 +47,13 @@ class NavbarFixed extends Component{
                     navbarScroll
                     >
                     <Nav.Item href="#action1">
-                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to='/'>Home</Link></Nav.Link>
+                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to="/">Home</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to={'/categories'}>Categories</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to="/categories">Categories</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to={'/random'}>Try It</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to="/random">Try It</Link></Nav.Link>
                     </Nav.Item>
                     </Nav>
                     <Search />

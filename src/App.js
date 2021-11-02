@@ -22,8 +22,8 @@ export default function App() {
         <Route path="/Recipe-Mount" component={HomePage}/>
         <Route path="/search/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
         <Route path="/:dynamic/:dynamic" render={(props) =>{return(<DetailsPage  {...props } /> )}} />
-        <Route path="/categories" component={CategoriesPage}/>
         <Route path="/random" component={RandomPage}/>
+        <Route path="/categories" component={CategoriesPage}/>
         <Route path="/:dynamic" render={(props) => { return ( <DynamicCategoriesPage {...props } /> )}}/>
         <Route path="/search" component={SearchPage} />
         <Route path="/" exact={true} component={HomePage}/>

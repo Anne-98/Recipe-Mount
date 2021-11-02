@@ -26,14 +26,14 @@ class NavbarFixed extends Component{
                 <Container fluid >
                     <Nav.Item href="#action1">
                         <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}>
-                            <Link style={{textDecoration:"none", color:"#f08080"}} to={"/Recipe-Mount"}>
+                            <Link style={{textDecoration:"none", color:"#f08080"}} to="/">
                                 <img src={logo} alt="" width="40" class="d-inline-block align-text-top" />
                             </Link>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action1">
                         <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}>
-                            <Link style={{textDecoration:"none", color:"#f08080"}} to={"/Recipe-Mount"}>
+                            <Link style={{textDecoration:"none", color:"#f08080"}} to="/">
                                 <h3 className="siteName">Recipe Mount</h3>
                             </Link>
                         </Nav.Link>
@@ -47,13 +47,13 @@ class NavbarFixed extends Component{
                     navbarScroll
                     >
                     <Nav.Item href="#action1">
-                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to={'/Recipe-Mount'}>Home</Link></Nav.Link>
+                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to='/'>Home</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to={'/categories'}>Categories</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to='/categories'>Categories</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to={'/random'} >Try It</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to='/random'>Try It</Link></Nav.Link>
                     </Nav.Item>
                     </Nav>
                     <Search />

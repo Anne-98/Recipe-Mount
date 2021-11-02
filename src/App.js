@@ -12,7 +12,8 @@ import DetailsPage from './pages/DetailsPage';
 import './css/font-awesome-4.7.0/css/font-awesome.min.css';
 import NavbarFixed from './components/Home/NavbarFixed';
 import SearchItemList from './pages/SearchItemList';
-import Footer from './components/Home/Footer'
+import Footer from './components/Home/Footer';
+import { HashRouter } from 'react-router-dom';
 
 export default function App() {
   return (

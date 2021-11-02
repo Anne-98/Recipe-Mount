@@ -16,7 +16,7 @@ import Footer from './components/Home/Footer'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavbarFixed/>
       <Switch>
         <Route path="/search/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
@@ -29,7 +29,7 @@ export default function App() {
         <Route path="/:dynamic" render={(props) => { return ( <DynamicCategoriesPage {...props } /> )}}/>
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

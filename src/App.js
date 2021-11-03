@@ -27,8 +27,8 @@ export default function App() {
         <Route path="/search" component={SearchPage} />
         <Route path="/" exact={true} component={HomePage}/>
       </Switch>
-      <NavbarFixed/>
       <Footer />
+      <NavbarFixed/>
     </BrowserRouter>
   );
 }

@@ -25,7 +25,7 @@ class NavbarFixed extends Component{
                 <Navbar expand="lg" style={{zIndex:"6"}} id="navbarContainer" className="navbar" fixed="top" >
                 <Container fluid >
                     <Nav.Item onClick={this.refreshPage}>
-                            <Link style={{textDecoration:"none", color:"#f08080"}} to="/Recipe-Mount">
+                            <Link style={{textDecoration:"none", color:"#f08080", paddingRight:"20px"}} to="/Recipe-Mount">
                                 <img src={logo} alt="" width="40" class="d-inline-block align-text-top" />
                             </Link>
 

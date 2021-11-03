@@ -143,8 +143,6 @@ font-family: 'Playball', cursive; }
 }
 .dynamic-categories-image{
   object-fit: cover;
-  width: 200px;
-  
 }
 /* @media screen and (max-width: 1213px) {
   

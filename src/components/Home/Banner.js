@@ -27,7 +27,7 @@ class Banner extends Component{
                             
                             <i>– Gerard Depardieu</i><br/>
                             <div onClick={this.refreshPage}>
-                                <Link to={'/random'}>
+                                <Link to='/Recipe-Mount/random'>
                                 <button className="banner-button" >Try something New</button>
                             </Link>
                             </div>

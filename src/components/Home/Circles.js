@@ -56,13 +56,13 @@ class Circles extends Component{
                     >
 
                     <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Beef">
+                        <Link className="circles-link" to="/Recipe-Mount/Beef">
                                 <img alt='' src="https://www.themealdb.com/images/category/beef.png" />
                                 <p className="circles-name">Beef</p>
                         </Link>
                     </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Chicken">
+                        <Link className="circles-link" to="/Recipe-Mount/Chicken">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/chicken.png" />
                                 <p className="circles-name">Chicken</p>
@@ -70,7 +70,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Dessert">
+                        <Link className="circles-link" to="/Recipe-Mount/Dessert">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/dessert.png" />
                                 <p className="circles-name">Dessert</p>
@@ -78,7 +78,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Lamb">
+                        <Link className="circles-link" to="/Recipe-Mount/Lamb">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/lamb.png" />
                                 <p className="circles-name">Lamb</p>
@@ -86,7 +86,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Miscellaneous">
+                        <Link className="circles-link" to="/Recipe-Mount/Miscellaneous">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/miscellaneous.png" />
                                 <p className="circles-name">Miscellaneous</p>
@@ -94,7 +94,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Pasta">
+                        <Link className="circles-link" to="/Recipe-Mount/Pasta">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/pasta.png" />
                                 <p className="circles-name">Pasta</p>
@@ -102,7 +102,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Pork">
+                        <Link className="circles-link" to="/Recipe-Mount/Pork">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/pork.png" />
                                 <p className="circles-name">Pork</p>
@@ -110,7 +110,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Seafood">
+                        <Link className="circles-link" to="/Recipe-Mount/Seafood">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/seafood.png" />
                                 <p className="circles-name">Seafood</p>
@@ -118,7 +118,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Side">
+                        <Link className="circles-link" to="/Recipe-Mount/Side">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/side.png" />
                                 <p className="circles-name">Side</p>
@@ -126,7 +126,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Starter">
+                        <Link className="circles-link" to="/Recipe-Mount/Starter">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/starter.png" />
                                 <p className="circles-name">Starter</p>
@@ -134,7 +134,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Vegan">
+                        <Link className="circles-link" to="/Recipe-Mount/Vegan">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/vegan.png" />
                                 <p className="circles-name">Vegan</p>
@@ -142,7 +142,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Vegetarian">
+                        <Link className="circles-link" to="/Recipe-Mount/Vegetarian">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/vegetarian.png" />
                                 <p className="circles-name">Vegetarian</p>
@@ -150,7 +150,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Breakfast">
+                        <Link className="circles-link" to="/Recipe-Mount/Breakfast">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/breakfast.png" />
                                 <p className="circles-name">Breakfast</p>
@@ -158,7 +158,7 @@ class Circles extends Component{
                         </Link>
                         </div>
                         <div className="circles-image-div" onClick={this.refreshPage}>
-                        <Link className="circles-link" to="/Goat">
+                        <Link className="circles-link" to="/Recipe-Mount/Goat">
                             <div className="circles-image-div">
                                 <img alt='' src="https://www.themealdb.com/images/category/goat.png" />
                                 <p className="circles-name">Goat</p>

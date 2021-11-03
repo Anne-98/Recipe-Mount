@@ -18,8 +18,8 @@ class DetailsPage extends Component{
 
         console.log(this.props.match.params.dynamic) 
         const dataSet = await axios.get(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${categoryId}`) 
-
         var meal = dataSet.data.meals[0]
+
         this.setState({
             id: categoryId,
             categoryDetails: meal

@@ -37,7 +37,7 @@ class DynamicCategoriesPage extends Component{
                         {this.state.foods.map((item)=>{
                     return(
                         <div  style={{display: "inline-block"}} className="dynamic-categories-component" onClick={this.refreshPage}>
-                            <Link to={`/${categoryName}/${item.idMeal}`} >
+                            <Link to={`/Recipe-Mount/${categoryName}/${item.idMeal}`} >
                                 <Card  style={{ width: '15rem' }}  className=" text-black dynamic-category-component border-0 ">
                                 <Card.Img className="dynamic-categories-image" variant="top" src={item.strMealThumb} />
                                 <Card.ImgOverlay className="dynamic-categories">

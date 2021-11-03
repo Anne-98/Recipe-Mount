@@ -50,10 +50,10 @@ class NavbarFixed extends Component{
                         <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to="/Recipe-Mount">Home</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to="/categories">Categories</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to="/Recipe-Mount/categories">Categories</Link></Nav.Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to="/random">Try It</Link></Nav.Link>
+                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to="/Recipe-Mount/random">Try It</Link></Nav.Link>
                     </Nav.Item>
                     </Nav>
                     <Search />

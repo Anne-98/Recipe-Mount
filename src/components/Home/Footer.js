@@ -20,9 +20,9 @@ class Footer extends Component{
                     </Col>
                     <Col sm="12" md="4" className="footer-div-2">
                         <h1 className="footer-headings">Links</h1>
-                        <div onClick={this.refreshPage}><Link to="/" className="footer-links"><p>Home</p></Link></div>
-                        <p onClick={this.refreshPage}><Link to="/random" className="footer-links">Try It</Link></p>
-                        <p onClick={this.refreshPage}><Link to="/categories" className="footer-links">Categories</Link></p>
+                        <div onClick={this.refreshPage}><Link to="/Recipe-Mount/" className="footer-links"><p>Home</p></Link></div>
+                        <p onClick={this.refreshPage}><Link to="/Recipe-Mount/random" className="footer-links">Try It</Link></p>
+                        <p onClick={this.refreshPage}><Link to="/Recipe-Mount/categories" className="footer-links">Categories</Link></p>
                     </Col>
                     <Col sm="12" md="4" className="footer-div-3">
                         <h1 className="footer-headings">Connect</h1>

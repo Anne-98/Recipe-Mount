@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
+import {HashRouter, Link, Route, Switch} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import RandomPage from './pages/RandomPage';
 import CategoriesPage from './pages/CategoriesPage';
@@ -16,11 +16,11 @@ import Footer from './components/Home/Footer';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavbarFixed/>
       <Switch>
+        <Route path="/" exact component={HomePage}/>
         <Route path="/Recipe-Mount" component={HomePage}/>
-        <Route path="/" exact={true} component={HomePage}/>
         <Route path="/categories" component={CategoriesPage}/>
         <Route path="/random" component={RandomPage}/>
         <Route path="/:dynamic/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
@@ -29,7 +29,7 @@ export default function App() {
         <Route path="/search" component={SearchPage} />
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

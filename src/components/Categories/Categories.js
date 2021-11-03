@@ -34,7 +34,7 @@ class Categories extends React.Component{
                         {this.state.category.map((item)=>{
                     return(
                         <div  style={{display: "inline-block"}} onClick={this.refreshPage}>
-                            <Link className="category-link" to={`/Recipe-Mount/${item.strCategory}`}>
+                            <Link className="category-link" to={`/${item.strCategory}`}>
                                 <Card style={{ width: '18rem' }}  className=" text-black category-component border-0 ">
                                 <div className="category-image-container" style={{background:"#eee"}}><Card.Img className="categories-image" variant="top" src={item.strCategoryThumb} /></div>
                                 <Card.Body  className="category-component-body">

@@ -37,7 +37,7 @@ class Trending extends Component{
                             
                             <div style={{display:"inline-block"}} className="dynamic-categories-component" onClick={this.refreshPage}>
                                 <b>{item.strCategory}</b><br/>
-                                <Link to={`/Recipe-Mount/searched/${item.idMeal}`}>
+                                <Link to={`/searched/${item.idMeal}`}>
                                     <Card  style={{ width: '15rem' }}  className=" text-black dynamic-category-component border-0 ">
                                 <Card.Img className="dynamic-categories-image" variant="top" src={item.strMealThumb} />
                                 <Card.ImgOverlay className="dynamic-categories">

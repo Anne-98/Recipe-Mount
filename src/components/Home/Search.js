@@ -57,7 +57,7 @@ class Search extends Component{
                         aria-label="Search"
                         value={this.state.inputValue} onChange={this.handleChange} style={{borderRadius:"40px 0px 0px 20px", border:"#f08080 solid 2px"}}/>
 
-                    <Link to={`/Recipe-Mount/search/searchedItem/${this.state.input}`} >
+                    <Link to={`/search/searchedItem/${this.state.input}`} >
                         <Button id="search-btn" onClick={this.handleClick} data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" 
                             >
                                 <i class="fas fa-search" ></i>

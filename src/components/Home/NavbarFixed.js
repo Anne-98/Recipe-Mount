@@ -24,19 +24,19 @@ class NavbarFixed extends Component{
 
                 <Navbar expand="lg" style={{zIndex:"6"}} id="navbarContainer" className="navbar" fixed="top" >
                 <Container fluid >
-                    <Nav.Item href="#action1">
-                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}>
+                    <Nav.Item>
+                        
                             <Link style={{textDecoration:"none", color:"#f08080"}} to="/Recipe-Mount">
                                 <img src={logo} alt="" width="40" class="d-inline-block align-text-top" />
                             </Link>
-                        </Nav.Link>
+                        
                     </Nav.Item>
-                    <Nav.Item href="#action1">
-                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}>
+                    <Nav.Item>
+                        
                             <Link style={{textDecoration:"none", color:"#f08080"}} to="/Recipe-Mount">
                                 <h3 className="siteName">Recipe Mount</h3>
                             </Link>
-                        </Nav.Link>
+                        
                     </Nav.Item>
                     
                     
@@ -47,13 +47,13 @@ class NavbarFixed extends Component{
                     navbarScroll
                     >
                     <Nav.Item href="#action1">
-                        <Nav.Link className="active"  aria-current="page" onClick={this.refreshPage}><Link id="navItem" to="/Recipe-Mount">Home</Link></Nav.Link>
+                        <Link id="navItem" to="/Recipe-Mount">Home</Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link id="navItem" to="/Recipe-Mount/categories">Categories</Link></Nav.Link>
+                        <Link id="navItem" to="/Recipe-Mount/categories">Categories</Link>
                     </Nav.Item>
                     <Nav.Item href="#action2" >
-                        <Nav.Link onClick={this.refreshPage} ><Link refresh id="navItem" to="/Recipe-Mount/random">Try It</Link></Nav.Link>
+                        <Link refresh id="navItem" to="/Recipe-Mount/random">Try It</Link>
                     </Nav.Item>
                     </Nav>
                     <Search />

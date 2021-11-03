@@ -19,11 +19,11 @@ export default function App() {
     <BrowserRouter>
       <NavbarFixed/>
       <Switch>
-        <Route path="/Recipe-Mount/categories" component={CategoriesPage}/>
         <Route path="/Recipe-Mount/:dynamic/:dynamic/:dynamic" render={(props) => {return(<SearchItemList {...props}/>)}}/>
         <Route path="/Recipe-Mount/:dynamic/:dynamic" render={(props) =>{return(<DetailsPage  {...props } /> )}} />
-        <Route path="/Recipe-Mount/random" component={RandomPage}/>
         <Route path="/Recipe-Mount/:dynamic" render={(props) => { return ( <DynamicCategoriesPage {...props } /> )}}/>
+        <Route path="/Recipe-Mount/categories" component={CategoriesPage}/>
+        <Route path="/Recipe-Mount/random" component={RandomPage}/>
         <Route path="/Recipe-Mount/search" component={SearchPage} />
         <Route path="/Recipe-Mount" component={HomePage}/>
         <Route path="/" exact={true} component={HomePage}/>
